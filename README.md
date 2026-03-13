@@ -18,34 +18,6 @@ This project demonstrates a simplified but functional architecture integrating *
 
 ---
 
-# Architecture
-
-The prototype follows the pipeline below:
-
-
-Sensors / Drone / Weather
-↓
-Gateway
-↓
-Broker
-↓
-Specialized Apps
-├── Soil App
-├── Climate App
-├── Energy App
-└── AgriVision App
-↓
-MCP Central Brain
-↓
-Digital Twin
-↓
-Actuator App
-↓
-Action Execution
-
-
----
-
 # System Components
 
 ## Gateway
@@ -112,52 +84,6 @@ Huawei **ModelArt & MindSpore** is used in AI module:
 - **AgriVision App** → Crop image classification
 
 These models are trained locally and loaded during prototype execution.
-
----
-
-# Project Structure
-
-
-agribrain_prototype/
-│
-├── apps/
-│ ├── soil_app.py
-│ ├── climate_app.py
-│ ├── energy_app.py
-│ └── agrivision_app.py
-│
-├── core/
-│ ├── gateway.py
-│ ├── broker.py
-│ ├── mcp.py
-│ ├── digital_twin.py
-│ └── actuator.py
-│
-├── data/
-│ ├── soil_fertility.csv
-│ ├── soil_sensor_data.json
-│ ├── weather_energy_data.json
-│ ├── vision_dataset/
-│ │ ├── train/
-│ │ ├── val/
-│ │ └── test/
-│ │
-│ └── vision_samples/
-│ └── sample_test.jpg
-│
-├── models/
-│ ├── soil_train.py
-│ ├── agrivision_train.py
-│ ├── soil_model.ckpt
-│ ├── soil_scaler.json
-│ ├── agrivision_model.ckpt
-│ └── vision_labels.json
-│
-├── assets/
-│ └── architecture.png
-│
-├── main.py
-└── README.md
 
 
 ---
