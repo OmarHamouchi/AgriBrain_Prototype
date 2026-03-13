@@ -1,0 +1,20 @@
+{
+  "sensor_packet_id": "energy_pkt_001",
+  "source": "weather_energy_node_B1",
+  "timestamp": "2026-03-11T14:00:00Z",
+  "data_type": "energy_climate",
+  "location": {
+    "field": "Field A",
+    "zone": "Zone 1"
+  },
+  "payload": {
+    "solar_irradiance": 420,
+    "wind_speed": 4.8,
+    "temperature": 33.2,
+    "humidity": 41,
+    "cloud_cover": 20,
+    "rain_forecast": false,
+    "battery_level": 28,
+    "reservoir_level": 64
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sensor_packet_id": "soil_pkt_001",
+  "source": "soil_sensor_node_A1",
+  "timestamp": "2026-03-11T14:00:00Z",
+  "data_type": "soil",
+  "location": {
+    "field": "Field A",
+    "zone": "Zone 1"
+  },
+  "payload": {
+    "N": 289,
+    "P": 7.9,
+    "K": 465,
+    "pH": 7.42,
+    "EC": 0.43,
+    "OC": 0.35,
+    "S": 8.9,
+    "Zn": 0.36,
+    "Fe": 3.24,
+    "Cu": 0.77,
+    "Mn": 9.73,
+    "B": 0.14
+  }
+}
